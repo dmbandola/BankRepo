@@ -4,6 +4,11 @@ from webtest import TestApp
 
 from bank_app import app
 
+@step(u'When I enter the account number "([^"]*)"')
+def when_i_enter_the_account_number_group1(step, group1):
+    assert False, 'This step must be implemented'
+
+
 @step(u'I visit the homepage')
 def i_visit_the_homepage(step):
     world.browser = TestApp(app)
