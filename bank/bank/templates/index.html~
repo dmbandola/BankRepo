@@ -7,4 +7,8 @@
 
 <form id ="account-form">
 	<label>Account Number: </label><input name="account_number" type="text"/>
-	<input
+	<input type="submit"/>
+</form>
+
+</body>
+</html>
