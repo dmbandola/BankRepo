@@ -10,4 +10,8 @@ def hello_world():
     return render_template ('index.html', balance = balance)
     
 if __name__ == '__main__':
-    app.run(debug=True)
+    import cProfile
+
+    account = Account('1111', 50)
+    BANK.add_account(account)
+    cProfile.run('app.run(debug=True)')
