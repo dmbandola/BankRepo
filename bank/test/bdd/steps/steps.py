@@ -2,11 +2,11 @@ from lettuce import *
 from nose.tools import assert_equal, assert_in
 from webtest import TestApp
 from bank.account import Account
-from bank_app import app, BANK
+from bank_app import APP, BANK
 
 @step(u'I visit the homepage')
 def i_visit_the_homepage(step):
-    world.browser = TestApp(app)
+    world.browser = TestApp(APP)
     world.response = world.browser.get('http://localhost:500/')
     assert_equal(world.response.status_code, 200)
     
