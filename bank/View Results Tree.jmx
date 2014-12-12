@@ -33,8 +33,8 @@
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">20</stringProp>
         <stringProp name="ThreadGroup.ramp_time"></stringProp>
-        <longProp name="ThreadGroup.start_time">1417493514000</longProp>
-        <longProp name="ThreadGroup.end_time">1417493514000</longProp>
+        <longProp name="ThreadGroup.start_time">1418378354000</longProp>
+        <longProp name="ThreadGroup.end_time">1418378354000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -248,7 +248,7 @@
           </collectionProp>
           <collectionProp name="">
             <stringProp name="-914294107">HTTP Request (success)</stringProp>
-            <stringProp name="589962967">HTTP Request</stringProp>
+            <stringProp name="-1549391110">Overall Response Times</stringProp>
           </collectionProp>
         </collectionProp>
       </kg.apc.jmeter.vizualizers.CompositeResultCollector>

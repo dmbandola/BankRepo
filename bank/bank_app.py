@@ -17,4 +17,4 @@ if __name__ == '__main__':
     import cProfile
 
     BANK.add_account(Account('1111', 50))
-    cProfile.run('APPrun(debug=True)', sort='time')
+    cProfile.run('APP.run(debug=True)', sort='time')

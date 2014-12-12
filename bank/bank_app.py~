@@ -6,7 +6,7 @@ from bank.account import Account
 APP = Flask(__name__)
 BANK = Bank()
 
-@app.route('/')
+@APP.route('/')
 def hello_world():
     """This is another function"""
     account_number = request.args.get('account_number')
